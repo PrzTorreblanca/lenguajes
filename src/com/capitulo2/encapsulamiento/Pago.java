@@ -12,9 +12,9 @@ package com.capitulo2.encapsulamiento;
 public class Pago {
    public float hacerPago(Usuario u){
         
-        float pago=u.getHorasTrabajadas()*u.getSueloBase();
-        System.out.println("Quincena pagada a:"+u.getNombre() +", por la cantidad mensual de : "+pago);
-        return pago;
+     //   float pago=u.getHorasTrabajadas()*u.getSueloBase();
+     //   System.out.println("Quincena pagada a:"+u.getNombre() +", por la cantidad mensual de : "+pago);
+        return 12;
         
     }
        

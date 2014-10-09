@@ -18,7 +18,11 @@ public class SistemaDePago {
 
     public static void main(String args[]){
  System.out.println(hacerPago(40,200));
+ HolaGroovy hola=new HolaGroovy();
+System.out.println("Lo usare"+hola.malo(new Integer("10"),new Integer("60")));
+ System.out.println(hola.getHola());
     }
+
      public static float hacerPago(int horas, float sueldo){
         
         float pago=horas*sueldo;

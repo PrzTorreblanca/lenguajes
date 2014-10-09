@@ -98,7 +98,7 @@ public class HorasTrabajadasVentana extends javax.swing.JFrame {
 
     private void saludarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saludarActionPerformed
         // TODO add your handling code here:
-        resultado.setText("Hola como estas " + textoNombre.getText());
+        resultado.setText(""+new HolaGroovy().malo(30, new Integer(textoNombre.getText())));
         
     }//GEN-LAST:event_saludarActionPerformed
 
